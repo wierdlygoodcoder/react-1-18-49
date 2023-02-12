@@ -28,28 +28,7 @@ export class HTTPRequests extends Component {
     }
   render() {
     const posts = this.state.posts;
-    return (
-      <div>
-        <h2>Posts:</h2>
-        {
-          posts.length ?(
-            posts.map(post =>(
-              <div key={post.id}>
-                <h2>{post.id}.{post.title}</h2>
-                <h4>By User ID {post.userID}</h4>
-                <p>{post.body}</p>
-                <hr/>
-              </div>
-            ))
-
-          ):(
-            this.state.error
-            ? <p>{this.state.error}</p>
-            : <h4>Loading post ...</h4>
-          )
-        }
-      </div>
-    )
+www
   }
 }
 
